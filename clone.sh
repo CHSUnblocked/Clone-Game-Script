@@ -7,5 +7,4 @@ cd $name
 git clone $url
 cd *
 rm -rf .git
-cd ../../
-git commit -m "Add $name"
+exit
